@@ -1,7 +1,12 @@
 /*This is the main stylesheet for my website*/
-header {
+body {
+    background-color: rgb(201, 236, 249);
+}
+
+.header {
     text-align: center;
 }
-body {
-    background-color: rgb(175, 217, 231);
+
+.paragraph {
+    text-align: center;
 }
