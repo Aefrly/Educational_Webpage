@@ -1,6 +1,8 @@
 /*This is the main stylesheet for my website*/
 body {
     background-color: rgb(201, 236, 249);
+    font-family: "calibri";
+    font-size: 20px;
 }
 
 .header {
