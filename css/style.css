@@ -31,3 +31,10 @@ body {
     padding: 15px;
     font-size: 20px;
 }
+
+#home {
+    background-color: #0051ca;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
