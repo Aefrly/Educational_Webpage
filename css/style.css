@@ -38,3 +38,12 @@ body {
     padding: 20px;
     color: white;
 }
+
+#animal_population_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#animal, #population {
+   flex: 1;
+}
