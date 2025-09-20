@@ -1,10 +1,12 @@
 /*This is the main stylesheet for my website*/
+/*Styling the whole page*/
 body {
     background-color: rgb(201, 236, 249);
     font-family: "calibri";
     font-size: 20px;
 }
 
+/*Styling the header, paragraph, and button classes*/
 .header {
     text-align: center;
 }
@@ -24,6 +26,7 @@ body {
     margin: 10px;
 }
 
+/*Styling the footer and home ID's*/
 #footer {
     background-color: #0051ca;
     text-align: center;
@@ -39,6 +42,8 @@ body {
     color: white;
 }
 
+/*Styled the wrapped animal and population sections to be side by side
+with the use of flex boxes*/
 #animal_population_wrapper {
     display: flex;
     gap: 20px;
@@ -48,6 +53,8 @@ body {
    flex: 1;
 }
 
+/*Styled the flex container and box classes for the favorite animal 
+and hunting section.*/
 .flex_container {
     display: flex;
 }
