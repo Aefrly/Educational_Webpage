@@ -6,6 +6,12 @@ body {
     font-size: 20px;
 }
 
+/*Changing the color of all links on the page*/
+a:visited {color: rgb(221, 238, 255);}
+a:active {color: white;}
+
+.link:visited {color: #0051ca;}
+
 /*Styling the header, paragraph, and button classes*/
 .header {
     text-align: center;
@@ -16,7 +22,7 @@ body {
 }
 
 .button {
-    background-color: #0051ca;
+    background-color: #0043A8;
     color: white;
     padding: 15px;
     text-align: center;
@@ -28,7 +34,7 @@ body {
 
 /*Styling the footer and home ID's*/
 #footer {
-    background-color: #0051ca;
+    background-color: #0043A8;
     text-align: center;
     color: white;
     padding: 15px;
@@ -36,7 +42,7 @@ body {
 }
 
 #home {
-    background-color: #0051ca;
+    background-color: #0043A8;
     font-size: 20px;
     padding: 20px;
     color: white;
@@ -60,7 +66,7 @@ and hunting section.*/
 }
 
 .box {
-    background-color: #0051ca;
+    background-color: #0043A8;
     padding: 20px;
     margin: 10px;
     color: white;
