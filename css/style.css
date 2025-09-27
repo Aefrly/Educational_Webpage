@@ -7,10 +7,7 @@ body {
 }
 
 /*Changing the color of all links on the page*/
-a:visited {color: rgb(221, 238, 255);}
-a:active {color: white;}
-
-.link:visited {color: #0043A8;}
+.link:visited {color: rgb(221, 238, 255);}
 
 /*Styling the header, paragraph, and button classes*/
 .header {
