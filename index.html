@@ -13,91 +13,93 @@
     </head>
 
     <body>
-        <header class="header">
-            <!--Below is my main header to the page and a description
-             about the page-->
-            <h1>Welcome to the Arctic!</h1>
-            <p>This region on Earth is definitely one of the coldest 
+        <div class="container mt-4">
+            <header class="header">
+                <!--Below is my main header to the page and a description
+                 about the page-->
+                <h1>Welcome to the Arctic!</h1>
+                <p>This region on Earth is definitely one of the coldest 
                 but it is home to some of the most interesting (and 
                 adorable) animals on Earth. On this website, I will 
                 introduce you to some of the animals and their unique
                 qualities.
-            </p>
-        </header>
-        <main>
-            <article>
-                <!--I wanted to begin the page by explaining where we
-                 are on the map for people that don't know where the 
-                 arctic region is.-->
-                <h2 class="header">Where are we?</h2>
-                <p class="paragraph">To begin, we need to figure out where we are. Many
-                      people may not know but the Arctic region is the
-                      northernmost region on Earth. This is completely
-                      different from Antarctica which is the 
-                      southernmost continent. Below is a map of the 
-                      Arctic region.
                 </p>
-                <!--Here is me adding in my image of a map-->
-                <img
-                src = "./Images/Map_of_Arctic.webp"
-                alt = "Map of the Arctic region."
-                width = "50%"
-                >
-                <!--Used div tag to combine sections for styling-->
-                <div id="animal_population_wrapper">
-                    <section id="animal">
-                        <!--This is my first unordered list about animals
-                        found in the arctic region-->
-                        <h3>Animals</h3>
-                        <p>Here is a list of some animals that can be
-                        found in the Arctic region:
-                        </p>
+            </header>
+            <main>
+                <article>
+                    <!--I wanted to begin the page by explaining where we
+                    are on the map for people that don't know where the 
+                     arctic region is.-->
+                    <h2 class="header">Where are we?</h2>
+                    <p class="paragraph">To begin, we need to figure out where we are. Many
+                          people may not know but the Arctic region is the
+                          northernmost region on Earth. This is completely
+                          different from Antarctica which is the 
+                          southernmost continent. Below is a map of the 
+                          Arctic region.
+                    </p>
+                    <!--Here is me adding in my image of a map-->
+                    <img
+                    src = "./Images/Map_of_Arctic.webp"
+                    alt = "Map of the Arctic region."
+                    width = "50%"
+                    >
+                    <!--Used div tag to combine sections for styling-->
+                    <div id="animal_population_wrapper">
+                        <section id="animal">
+                            <!--This is my first unordered list about animals
+                            found in the arctic region-->
+                            <h3>Animals</h3>
+                            <p>Here is a list of some animals that can be
+                            found in the Arctic region:
+                            </p>
+                            <ul>
+                                <li>Arctic Fox</li>
+                                <li>Harp Seal</li>
+                                <li>Caribou</li>
+                                <li>Snowy Owl</li>
+                                <li>Polar Bear</li>
+                                <li>Walrus</li>
+                                <li>Beluga Whale</li>
+                            </ul>
+                        </section>
+                        <section id="population">
+                            <!--This is my second ordered list about the
+                            populations of those animals listed above. They 
+                            are ranked in order from highest to lowest numbers-->
+                            <h3>Populations</h3>
+                            <p>From the animals I listed above I want to give
+                            a ranking of which population is highest to 
+                            lowest. This isn't perfect however because 
+                            there isn't an exact number of each animal.
+                            </p>
+                            <ol>
+                                <li>Harp Seal</li>
+                                <li>Beluga Whale</li>
+                                <li>Caribou</li>
+                                <li>Arctic Fox</li>
+                                <li>Walrus</li>
+                                <li>Polar Bear</li>
+                                <li>Snowy Owl</li>
+                            </ol>
+                        </section>
+                    </div>
+                    <!--Here is a link to the wikipedia page about 
+                    the arctic-->
+                    <p class="button">If you want to learn more about the arctic, go 
+                        <a class="link" href = "https://en.wikipedia.org/wiki/Arctic">here.</a></p>
+                </article>
+                <footer>
+                    <nav id="footer">
+                        <!--This is my navigation bar to go to the next
+                        page about the arctic fox-->
+                        <h4>Let's learn about each animal!</h4>
                         <ul>
-                            <li>Arctic Fox</li>
-                            <li>Harp Seal</li>
-                            <li>Caribou</li>
-                            <li>Snowy Owl</li>
-                            <li>Polar Bear</li>
-                            <li>Walrus</li>
-                            <li>Beluga Whale</li>
+                            <li><a class="link" href="./page2.html">Arctic Fox</a></li>
                         </ul>
-                    </section>
-                    <section id="population">
-                        <!--This is my second ordered list about the
-                        populations of those animals listed above. They 
-                        are ranked in order from highest to lowest numbers-->
-                        <h3>Populations</h3>
-                        <p>From the animals I listed above I want to give
-                        a ranking of which population is highest to 
-                        lowest. This isn't perfect however because 
-                        there isn't an exact number of each animal.
-                        </p>
-                        <ol>
-                            <li>Harp Seal</li>
-                            <li>Beluga Whale</li>
-                            <li>Caribou</li>
-                            <li>Arctic Fox</li>
-                            <li>Walrus</li>
-                            <li>Polar Bear</li>
-                            <li>Snowy Owl</li>
-                        </ol>
-                    </section>
-                </div>
-                <!--Here is a link to the wikipedia page about 
-                the arctic-->
-                <p class="button">If you want to learn more about the arctic, go 
-                    <a class="link" href = "https://en.wikipedia.org/wiki/Arctic">here.</a></p>
-            </article>
-            <footer>
-                <nav id="footer">
-                    <!--This is my navigation bar to go to the next
-                    page about the arctic fox-->
-                    <h4>Let's learn about each animal!</h4>
-                    <ul>
-                        <li><a class="link" href="./page2.html">Arctic Fox</a></li>
-                    </ul>
-                </nav>
-            </footer>
-        </main>
+                    </nav>
+                </footer>
+            </main>
+        </div>
     </body>
 </html>
