@@ -1,9 +1,16 @@
 /*This is the main stylesheet for my website*/
-/*Styling the whole page*/
+/*Styling the whole page and the image*/
 body {
     background-color: rgb(201, 236, 249);
     font-family: "calibri";
     font-size: 20px;
+}
+
+img {
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
 }
 
 /*Changing the color of all links on the page*/
@@ -30,7 +37,7 @@ body {
 }
 
 /*Styling the footer and home ID's*/
-#footer {
+/*#footer {
     background-color: #0043A8;
     text-align: center;
     color: white;
@@ -44,10 +51,11 @@ body {
     padding: 20px;
     color: white;
 }
+*/
 
 /*Styled the wrapped animal and population sections to be side by side
 with the use of flex boxes*/
-#animal_population_wrapper {
+/*#animal_population_wrapper {
     display: flex;
     gap: 20px;
 }
@@ -55,6 +63,7 @@ with the use of flex boxes*/
 #animal, #population {
    flex: 1;
 }
+*/
 
 /*Styled the flex container and box classes for the favorite animal 
 and hunting section.*/
