@@ -67,9 +67,10 @@ with the use of flex boxes*/
 
 /*Styled the flex container and box classes for the favorite animal 
 and hunting section.*/
-.flex_container {
+/*.flex_container {
     display: flex;
 }
+*/
 
 .box {
     background-color: #0043A8;
